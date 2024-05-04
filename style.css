@@ -1,0 +1,23 @@
+body {
+margin: 2;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+.box{
+    width: 500px;
+    height: 340px;
+    border: none;
+    font-size: 38px;
+    background-image:linear-gradient(to left, blue, deeppink,blue), ;
+    background-clip: text, border-box;
+    color: transparent rgb(98, 44, 191);
+    font-weight: 900;
+    transition: 0,5s;
+    background-size: 200% 100%;
+}
+.box:hover {
+background-position-x: right;
+}
